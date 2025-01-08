@@ -1,0 +1,54 @@
+section {
+  margin-bottom: 80px;
+}
+
+table{
+  caption-side: bottom;
+  border-collapse: collapse;
+  margin: 30px 0;
+  border: 1px solid lightgrey;
+}
+
+
+thead {
+  border-bottom: solid 2px rgba(210,215,217,.75);
+}
+
+thead > tr, th {
+  background-color: lightgray;
+}
+
+th {
+  font-weight: bold;
+}
+
+td , th{
+  border: 1px solid lightgrey;
+  padding: 15px 40px;
+}
+
+.container {
+  width: 1200px;
+}
+
+* {
+  letter-spacing: 1px;
+}
+
+header, h1, p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+
+ul, ol {
+  margin-left:10px;
+}
+
+ul li, ol li {
+  margin-left:15px;
+}
+
+ul {
+  list-style: square;
+}
